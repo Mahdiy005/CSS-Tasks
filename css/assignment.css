@@ -1,0 +1,80 @@
+/* div{
+    width: 40px;
+    height: 40px;
+    background-color: aquamarine;
+    transition-duration: 5s;
+    transition-property: margin-top;
+    transition-timing-function: ease-in-out;
+}
+
+.one:hover{
+    width: 300px;
+} */
+
+
+/* :root{
+
+    --mainColor:yellow;
+}
+.div{
+    background-color: var(--mainColor);
+    border: 2px solid black;
+    padding: 10px;
+} */
+
+
+.flex{
+    background-color: #eee;
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 15px;
+    /* overflow: hidden; */
+     display: flex;
+    /*flex-direction: column ;
+    flex-wrap: wrap; */
+    flex-wrap: wrap-reverse;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.flex div{
+    /* float: left; */
+    font-size: 30px;
+    padding: 15px;
+    width: 10%;
+    background-color: red;
+    flex-grow: 1;
+    flex-shrink: 4;
+    /* order: 4; */
+}
+
+.float{
+    background-color: #eee;
+    width: 600px;
+    margin: 10px auto;
+    text-align: center;
+    padding: 15px;
+    overflow: hidden;
+}
+.float div {
+    float: left;
+    font-size: 30px;
+    padding: 15px;
+    width: 20%;
+    background-color: red;
+
+}
+
+
+
+/* how to ceneter text insoide div */
+.center-text{
+    width: 400px;
+    height: 300px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

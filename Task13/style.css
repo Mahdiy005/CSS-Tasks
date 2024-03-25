@@ -1,0 +1,98 @@
+/* -----Assignment 1------ */
+/* div{
+    width: 600px;
+    padding: 10px 0;
+    background-color: #eee;
+    margin: 20px auto;
+    text-align: center;
+    border-left: red 5px solid;
+    border-right: blueviolet 5px solid;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+}
+
+div::first-letter{
+    color: red;
+}
+
+div::before{
+    content: "";
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(
+        to right,
+        red 20%,
+        orange 20%,
+        orange 40%,
+        gray 40%,
+        gray 60%,
+        green 60%,
+        green 80%,
+        blueviolet 80%
+    );
+}
+div::after{
+    content: "";
+    width: 100%;
+    height: 5px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: red;
+    background-image: linear-gradient(
+        to right,
+        red 20%,
+        orange 20%,
+        orange 40%,
+        gray 40%,
+        gray 60%,
+        green 60%,
+        green 80%,
+        blueviolet 80%
+    );
+}
+ */
+
+
+
+
+
+
+/* -----Assignment 2------ */
+input{
+    width: 600px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #eee;
+    border: none;
+    caret-color: red;
+    position: relative;
+
+}
+form #one::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: red;
+    background-image: linear-gradient(
+        to right,
+        red 20%,
+        orange 20%,
+        orange 40%,
+        gray 40%,
+        gray 60%,
+        green 60%,
+        green 80%,
+        blueviolet 80%,
+    );
+}
+input:focus{
+    outline: none;
+}

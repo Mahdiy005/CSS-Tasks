@@ -1,0 +1,169 @@
+/* ------------------------ */
+/* ------Assignment 1------ */
+/* ------------------------ */
+/* div{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+}
+.green{
+    background-color: green;
+    z-index: -1;
+    left: 10px;
+    top: 15px;
+
+}
+.red{
+    background-color: red;
+    z-index: 5;
+    left: 20px;
+    top: 20px;
+}
+.blue{
+    background-color: blue;
+    z-index: 3;
+    left: 15px;
+    top: 15px;
+}
+.black{
+    background-color: black;
+    left: 10px;
+    top: 10px;
+} */
+
+
+
+
+
+
+/* ------------------------ */
+/* ------Assignment 2------ */
+/* ------------------------ */
+/* div{
+    width: 400px;
+    position: relative;
+    left: calc((100% - 400px) / 2);
+    background-color: #eee;
+    font-size: 23px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    border-bottom: red 4px solid;
+    border-top: red 4px solid;
+    border-left: blue 4px solid;
+    border-right: blue 4px solid;
+    
+    margin-top: 40px; 
+}
+
+span{
+    width: 40px;
+    height: 35px;
+    text-align: center;
+    color: white;
+}
+.top-left{
+    position: absolute;
+    top: -22px;
+    left: -22px;
+    background-color: blue;
+    border-right: red solid 4px;
+}
+
+.bottom-left{
+    position: absolute;
+    bottom: -22px;
+    left: -22px;
+    background-color: blue;
+    border-right: red solid 4px;
+}
+
+.top-right{
+    position: absolute;
+    top: -22px;
+    right: -22px;
+    background-color: blue;
+    border-left: red solid 4px;
+}
+
+.bottom-right{
+    position: absolute;
+    bottom: -22px;
+    right: -22px;
+    background-color: blue;
+    border-left: red solid 4px;
+} */
+
+
+
+
+
+/* ------------------------ */
+/* ------Assignment 3------ */
+/* ------------------------ */
+/* ul .first,.second,.third{
+    list-style: none;
+    background-color: #eee;
+    margin: 19px;
+    padding: 10px;
+}
+ul li{
+    background-color: whitesmoke;
+    padding: 10px;    
+    margin: 10px;
+}
+
+.second ol{
+    list-style: upper-roman;
+} */
+
+
+
+
+/* ------------------------ */
+/* ------Assignment 4------ */
+/* ------------------------ */
+table{
+    width: 700px;
+    position: relative;
+    left: calc((100% - 700px)/2);
+    background-color: white;
+}
+
+thead{
+    background-color: rgb(71, 17, 17);
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th{
+    padding: 25px;
+}
+td{
+    padding: 25px;
+    /* border-spacing: 2px; */
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    /* border: rgb(190, 163, 163) 1px solid; */
+}
+
+button{
+    display: inline-block;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.b1{
+    background-color: blueviolet;
+}
+.b2{
+    background-color: red;
+}

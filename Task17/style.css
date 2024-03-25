@@ -1,0 +1,213 @@
+/* -----Assignment 1 & 2-------- */
+/* div{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 8px solid red;
+    border-left-color: white;
+    margin: 40px auto;
+    animation-name: load;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    position: relative;
+    z-index: 10;
+    animation-play-state: paused;
+}
+div:hover{
+    animation-play-state: running;
+}
+div::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 30px);
+    height: calc(100% + 30px);
+    background-color: transparent;
+    border: 8px solid blueviolet;
+    border-right-color: white;
+    top: -23px;
+    left: -23px;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+div::before{
+    content: "";
+    position: absolute;
+    width: calc(100% + 60px);
+    height: calc(100% + 60px);
+    background-color: transparent;
+    border: 8px solid orange;
+    border-left-color: white;
+    top: -38px;
+    left: -38px;
+    z-index: -1;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+@keyframes load{
+    from{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}to{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+} */
+
+
+
+
+
+
+/* -----Assignment 3-------- */
+/* span{
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    margin: 40px auto;
+    border: 8px black solid;
+    animation-duration: 1s;
+    animation-name: load;
+    display: block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-left-color: white;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse;
+}
+@keyframes load{
+    from{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}to{
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+}
+} */
+
+
+
+
+
+
+
+
+/* ------Assignment 4------- */
+.parent{
+    width: 400px;
+    height: 200px;
+    background-color: #eee;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    justify-content: center;
+
+    
+}
+.parent::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    animation-duration: 1s;
+    /* animation-name: mov; */
+
+}
+.parent div{
+    background-color: cadetblue;
+}
+
+.one{
+    grid-area: 1/1/6/2;
+    width: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+.two{
+    grid-area: 1/1/2/3;
+    /* height: 40px; */
+}
+.three{
+    grid-area: 3/1/4/3;
+    /* height: 40px; */
+}
+.four{
+    /* height: 40px; */
+    grid-area: 5/1/6/3;
+    top: 20px;
+    
+}
+.five{
+    grid-area: 1/3/6/4;
+    width: 40px;
+    
+}
+.six{
+    grid-area: 5/3/6/5;
+    position: relative;
+}
+
+.six::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    /* background-color: red; */
+    position: absolute;
+    right: 6px;
+    bottom: 6px;
+    animation-duration: 5s;
+    animation-name: mov;
+    /* visibility: hidden; */
+    /* background-color: transparent; */
+    animation-timing-function: linear;
+
+}
+@keyframes mov{
+    12%{
+        background-color: red;
+}18%{
+    right: 6px;
+    bottom: 6px;
+}27%{
+    right: 110px;
+    bottom: 6px;
+}36%{
+    right: 115px;
+    bottom: 160px;
+}50%{
+    background-color: transparent;
+}
+}

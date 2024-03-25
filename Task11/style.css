@@ -1,0 +1,65 @@
+
+/* ------------Assignment 1---------- */
+/* .parent{
+    width: 400px;
+    height: 200px;
+    background-color: antiquewhite;
+    text-align: center;
+    transition-duration: 0.5s;
+    margin-top: var(--mainMargin);
+}
+
+.parent div{
+    background-color: aliceblue;
+    padding: 10px;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+    margin-top: var(--mainMargin);
+}
+
+.parent:hover{
+    margin-top: 20px;
+}
+.parent:hover .first {
+    margin-top: 20px;
+} */
+
+
+/* ------------Assignment 2---------- */
+/* div{
+    text-indent: -9999px;
+    width: 400px;
+    background-color: #eee !important;
+    margin: 0 auto;
+    font-size: 20px !important;
+    position: relative;
+    border-color: #eee !important;
+    color: black !important;
+
+}
+div::after{
+    content: "Elzero";
+    position: absolute;
+    top: 21px;
+    left: 10208px;
+    font-size: 20px !important;
+
+} */
+
+
+
+
+/* ------------Assignment 3---------- */
+/* :root {
+    --mainColor: #009688;
+    --mainPadding: 10px;
+  }
+   */
+div {
+    color: var(--mainColor,red);
+    padding: var(--mainPadding,10px);
+    border: solid 2px var(--mainColor,black);
+    margin: 10px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 400px;
+}

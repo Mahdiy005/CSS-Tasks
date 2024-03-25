@@ -1,0 +1,155 @@
+/* ------Assignment 1-------- */
+/* div{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3px solid black;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 50px;
+    position: relative;
+    box-shadow: 3px 3px 0px blueviolet, -3px -3px 0 rgb(153, 103, 103);
+    counter-increment: cnt;
+}
+
+div::before{
+    content: "Element";
+    position: absolute;
+    top: 44%;
+    left: 25%;
+}
+div::after{
+    content: counter(cnt);
+    background-color: black;
+    position: absolute;
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    top: -12px;
+    left: 41px;
+
+} */
+
+
+
+
+
+
+/* ------Assignment 2-------- */
+/* div{
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+    border-top-right-radius: 45px 45px;
+    border-bottom-left-radius: 45px 45px;
+    border-top-left-radius: 10px 30px;
+    border-bottom-right-radius: 10px 30px;
+    box-shadow: 0px 0px 10px inset black;
+} */
+
+
+
+
+/* ------Assignment 3-------- */
+.parent{
+    width: 550px;
+    background-color: hsl(0, 0%, 93%);
+    position: relative;
+    margin: 0px auto;
+    left: 8%;
+}
+.right,.left{
+    width: 40%;
+    height: 200px;
+    background-color: #ccc;
+    float: left;
+}
+.vertical{
+    background-color: blue;
+    width: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 200px;
+    float: left;
+}
+
+.vertical::after{
+    content: "or";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    position: absolute;
+    background-color: blueviolet;
+    color: white;
+    top: 95px;
+    text-align: center;
+    left: calc(50% - 54px);
+
+}
+
+.left .banner{
+    background-color: #bbb;
+    position: absolute;
+    top: 59px;
+    left: 42px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 130px;
+    height: 70px;
+    text-align: center;
+    padding-top: 57px;
+}
+
+.right .banner{
+    background-color: #bbb;
+    position: absolute;
+    top: 59px;
+    right: 129px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 130px;
+    height: 70px;
+    text-align: center;
+    padding-top: 57px;
+}
+
+.rad{
+    width: 70%;
+    background-color: blueviolet;
+    /*height: 30px;*/
+    padding: 10px 0px;
+    margin: 0px auto;
+    text-align: center;
+    font-weight: bold;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    margin-top: 5px;
+}
+
+
+

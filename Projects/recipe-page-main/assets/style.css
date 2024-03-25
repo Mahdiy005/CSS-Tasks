@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Outfit-VariableFont_wght.ttf'; /* Replace with the actual font name */
+    src: url('fonts/yourfont.ttf') format('truetype'), /* TTF fallback */
+         url('fonts/yourfont.woff2') format('woff2'),  /* WOFF2 preferred */
+         url('fonts/yourfont.woff') format('woff');  /* WOFF fallback */
+  }
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: bisque;
+
+}
+.container{
+    width: 600px;
+    min-height: 500px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+    margin: 40px auto;
+}
+
+.img img{
+    width: fit-content;
+    height: 257px;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.img{
+    width: 100%;
+    margin: 0 auto;
+}
+h1{
+    color: green;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Outfit-VariableFont_wght.ttf";
+    margin: 20px 0;
+}
+
+.ingred{
+    background-color: #f0f8ff94;
+    padding: 29px;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+.ingred ul{
+    padding-left: 34px;
+}
+ul li{
+    margin: 12px 0;
+    padding-left: 12px;
+}
+.ingred h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: green;
+}
+.ident{
+    color: green;
+    font-weight: bold;
+    font-size: 17px;
+}
+.rot{
+    transform: rotate(-15deg);
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    /* font-family: "Outfit-VariableFont_wght.ttf"; */
+}
+
+.cat-title{
+    font-family: "Outfit-VariableFont_wght.ttf";
+    font-size: 25px;
+    color: green;
+    font-weight: bold;
+    margin: 27px 0;
+}
+
+.dif{
+    margin-left: 28px;
+    margin-bottom: 40px;
+}
+
+ol li{
+    margin: 15px 0;
+}
+
+table{
+    width: 90%;
+    margin: 20px;
+    border-collapse: collapse;
+    /* text-indent: initial; */
+    /* border-spacing: 2px; */
+}
+table td{
+    padding: 10px;
+}
+table td{
+    border-bottom: solid 1px rgb(0, 0, 0, 0.3);;
+    border-spacing:-2px;
+
+}

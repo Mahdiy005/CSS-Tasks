@@ -1,0 +1,55 @@
+.parent{
+    background-color: #eee;
+    width: 100px;
+    height: 100px;
+    margin: 50px auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    perspective: 200px;
+}
+.parent::after{
+    content: "";
+    position: absolute;
+    background-color: black;
+    top: 0;
+    left: -20px;
+    width: 2px;
+    height: 100%;
+}
+.parent::before{
+    content: "X-axis";
+    position: absolute;
+    background-color: black;
+    bottom: -20px;
+    left: 0px;
+    height: 2px;
+    width: 100%;
+}
+
+.parent div{
+    background-color: cadetblue;
+    width: 70px;
+    height: 70px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transform: translate3d(100px , 100px , 0px);
+    -webkit-transform: translate3d(100px , 100px , 0px);
+    -moz-transform: translate3d(100px , 100px , 0px);
+    -ms-transform: translate3d(100px , 100px , 0px);
+    -o-transform: translate3d(100px , 100px , 0px);
+}
+
+
+input:required + span::after{
+    content: "*";
+}

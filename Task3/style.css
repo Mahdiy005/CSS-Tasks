@@ -1,0 +1,72 @@
+/* -------Assinment 1------ */
+/* div{
+    display: inline-block;
+    background-color: aqua;
+    padding: 40px;
+    font-size: 30px;
+    margin: 15px;
+   
+}
+
+.shape1{
+    border: 10px red solid;
+    outline: 10px solid black;
+}
+.shape2{
+    
+    border-style: solid;
+    border-color: green blue;
+    border-width: 10px;
+    outline: 10px solid black;
+}
+.shape3{
+    
+    border-style: dashed;
+    border-color: yellow red green blue;
+    border-width: 10px;
+    outline: 10px solid black;
+} */
+
+
+
+/* -------Assinment 2------ */
+div{
+    width: 400px;
+    /* visibility: hidden; */
+    background-color: antiquewhite;
+    width: 100%;
+    padding: 30px;
+    font-size: 20px;
+    margin: 20px;
+    outline: 15px antiquewhite solid;
+    /* margin-left: 100px; */
+   width: 90%;
+   margin-left: auto;
+   margin-right: auto;
+}
+.element-2{
+    visibility: hidden;
+}
+
+.element{
+    /* background-color: blue;
+    width: 20px; */
+    /* border-left: green solid 15px; */
+    padding-left: 10px;
+    /* margin-left: 10px; */
+}
+
+.element-3
+{
+    border-left: rgb(155, 51, 51) 10px solid;
+    /* border-color: aqua red green yellow; */
+    /* background-size: 12px; */
+    /* padding: 20px; */
+}
+.element-1
+{
+    border-left: rgb(155, 51, 51) 10px solid;
+    /* border-color: aqua red green yellow; */
+    /* background-size: 12px; */
+    /* padding: 20px; */
+}

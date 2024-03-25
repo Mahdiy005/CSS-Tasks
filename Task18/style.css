@@ -1,0 +1,27 @@
+/* -------Assignment 1------ */
+/* div.main.red{
+    color: red;
+} */
+
+
+
+/* -------Assignment 2------ */
+/* .parent div:nth-child(2){
+    color: red;
+} */
+
+
+
+/* -------Assignment 3------ */
+/* .parent > div:only-of-type{
+    color: red;
+} */
+
+
+
+
+
+/* -------Assignment 4------ */
+body > div[title]{
+    color: red;
+}

@@ -1,0 +1,59 @@
+/* -----Assignment 1----- */
+/* div{
+    font-size: 25px;
+    color: black;
+    text-shadow: .7px .7px 0px red , 1.5px 1.5px 0px blue;
+
+} */
+
+
+
+/* -----Assignment 2----- */
+/* p{
+    text-align: center;
+}
+.one{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.two{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.three{
+    font-size: 30px;
+    text-transform: lowercase;
+} */
+
+
+
+/* -----Assignment 3----- */
+/* div{
+    width: 400px;
+    background-color: aliceblue;
+    font-size: 20px;
+    padding: 15px;
+    margin: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+} */
+
+
+
+
+/* -----Assignment 4----- */
+a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    background-color: cornflowerblue;
+    border-bottom: 4px black solid;
+    text-transform: capitalize;
+}

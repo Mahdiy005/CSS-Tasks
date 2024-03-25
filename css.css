@@ -1,0 +1,48 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.page{
+    display: grid;
+    background-color: #eee;
+    height: 100vh;
+    grid-template-columns: repeat(10 ,1fr);
+    grid-template-rows: 5% auto 10%;
+    grid-template-areas: "logo logo nav nav nav nav nav nav nav nav"
+     "cont cont cont cont cont cont cont sid sid sid"
+     "fot fot fot fot fot fot fot fot fot fot";
+    gap: 10px 10px;
+}
+section{
+    grid-area: cont;
+    background-color: aqua;
+}
+aside{
+    grid-area: sid;
+    background-color: red;
+}
+h2{
+    grid-area: logo;
+    background-color: yellow;
+    margin: 0;
+}
+
+nav{
+    grid-area: nav;
+    background-color: blueviolet;
+}
+footer{
+    grid-area: fot;
+    background-color: black;
+}
+
+ul{
+    list-style-type: none;
+    display: inline;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

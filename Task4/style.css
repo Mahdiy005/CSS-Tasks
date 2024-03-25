@@ -1,0 +1,37 @@
+/* -----Assignment 1----- */
+/* div .child .title{
+    color: red;
+}
+
+.parent span{
+    color: blue;
+}
+
+div p{
+    color:  green;
+}
+.title{
+    color: green;
+}
+
+div p,
+.title{
+    color: rgb(59, 59, 41);
+} */
+
+
+
+
+
+/* -----Assignment 2----- */
+div{
+    font-size: 20px;
+    padding: 15px;
+    background-color: brown;
+    margin: 12px;
+    max-width: 400px;
+    width: fit-content;
+    overflow: hidden;
+    height: auto;
+    overflow: auto;
+}
